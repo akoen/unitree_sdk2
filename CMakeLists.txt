@@ -8,6 +8,7 @@ add_library(unitree_interface INTERFACE)
 target_include_directories(unitree_interface
     INTERFACE 
     include
+    thirdparty/include
     thirdparty/include/ddscxx
     )
 
