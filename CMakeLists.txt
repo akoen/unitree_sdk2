@@ -15,8 +15,8 @@ target_include_directories(unitree_interface
 target_link_libraries(unitree_interface
     INTERFACE 
     ${CMAKE_CURRENT_SOURCE_DIR}/lib/${CMAKE_SYSTEM_PROCESSOR}/libunitree_sdk2.a
-    ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/lib/${CMAKE_SYSTEM_PROCESSOR}/libddsc.so
-    ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/lib/${CMAKE_SYSTEM_PROCESSOR}/libddscxx.so)
+    ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/lib/${CMAKE_SYSTEM_PROCESSOR}/libddsc.so.0
+    ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/lib/${CMAKE_SYSTEM_PROCESSOR}/libddscxx.so.0)
 
 link_libraries(unitree_interface)
 
